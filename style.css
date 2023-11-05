@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    background-color: black;
+}
+.contanier{
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+}
+.header{
+    padding: 2rem;
+    margin: 1rem 0px;
+    text-align: center;
+}
+.header> .title{
+    margin-bottom: 1rem;
+}
+.header img{
+    margin-top: 1rem;
+    padding-top: 2.5rem;
+    max-width: 100%;
+    box-shadow: 13px 13px 20px #15191e,
+    -13px -13px 20px #5a4d4d;
+}
+.tribute{
+    /* max-width: 100rem; */
+    margin: 30px;
+    background: whitesmoke;
+    color: black;
+    align-items: center;
+    padding: 20px;
+    box-shadow: inset 8px 8px 8px #b7cde4,
+    inset -8px -8px 8px #ffffff;
+}
+.tribute blockquote{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.subsection-header {
+    padding: 8px;
+    font-size: 2rem;
+    color: #ececec;
+    height: 100px;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#main-content {
+    margin: 1rem;
+    padding: 0px 0.5rem;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Dosis' , sans-serif;
+}
+.event-date {
+    text-align: center;
+    font-size: 20px;
+    margin: 8px;
+    padding: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px #f0eded;
+}
+.event-desc {
+    background: #000000;
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    padding: 8px 12px 8px 8px;
+    font-size: 18px;
+}
+
+.bio{
+    margin: 1.8rem auto;
+    padding: 0px 0.5rem;
+    /* max-width: 60rem; */
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    border-radius: 50px;
+    display: flex;
+}
+.bio img{
+    margin: 2rem;
+    padding-bottom: 3rem;
+    height: 300px;
+    width: 400px;
+    box-shadow: 5px 5px 8px #15191e,
+    -5px -5px 8px #5a4d4d;
+}
+
+.headline{
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    border-radius: 50px;
+    text-shadow:  0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+.bio>p{
+    margin-top: 3.5rem;
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.footer {
+    background-color:#020202;
+    height: 200px;
+    margin-top: 40px;
+}
+
+.quote {
+    font-family: 'Pacifico', cursive;
+    text-align:center;
+    font-size: 24px;
+    top:5px;
+    left: 150px;
+}
+
+a {
+    color:dodgerblue;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
